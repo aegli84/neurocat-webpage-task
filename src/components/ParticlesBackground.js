@@ -57,7 +57,7 @@ const ParticlesBackground =() => {
                     direction: "none",
                     enable: true,
                     outMode: "bounce",
-                    random: false,
+                    random: true,
                     speed: 2,
                     straight: false,
                 },
