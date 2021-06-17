@@ -39,7 +39,7 @@ const About = () => {
             <div className = "products">
                 <h2>AI Quality Services</h2>
                 <h3>Services for AI Quality – Safety, Security & Privacy</h3>
-                <h4>Research</h4>
+                {/* <h4>Research</h4>
                 <p>
                     Our mathematicians, ML experts, computer and data scientists research for major companies in the areas of AI (Module/Data) robustness, comprehensibility, functionality, privacy and ethical frameworks. Only a deep understanding of the AI algorithms and related data sets allows for the reliable safeguarding against failure over the entire lifecycle of AI applications
                 </p>
@@ -62,7 +62,7 @@ const About = () => {
                 <h4>DevOps</h4>
                 <p>
                     Our experienced AI developers support our customers in development, deployment and operation. The results from our AI Research and AI Analysis can be directly integrated into the customers’ AI products.
-                </p>
+                </p> */}
                 <h2>aidkit</h2>
                 <p>
                     Is an open source AI analysis, optimization and debugging platform. It will support prototyping, deployment and operation.

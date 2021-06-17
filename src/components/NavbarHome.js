@@ -5,7 +5,9 @@ const Navbar = ()=> {
     return(
         
         <Nav>
-        <img width="222" height="69" src="https://www.neurocat.ai/wp-content/uploads/2018/11/neurocat_website_logo.png" class="img-fluid" alt="Neurocat" itemprop="logo"></img>
+        <a href="http://localhost:3000/">
+        <img width="222" height="69" src="https://www.neurocat.ai/wp-content/uploads/2018/11/neurocat_website_logo.png" class="img-fluid" alt="Neurocat" itemprop="logo" ></img>
+        </a>
         <NavLink
                 exact
                 className = "nav-item" 

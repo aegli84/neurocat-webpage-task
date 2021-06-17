@@ -4,10 +4,10 @@ import GlobalStyles from './GlobalStyles'
 import Home from './pages/Home';
 import Footer from './components/Footer'
 //import ParticlesBackground from './components/ParticlesBackground'
-// import Products from './pages/Products';
-// import Resources from './pages/Resources';
+import Products from './pages/Products';
+import Resources from './pages/Resources';
 // //import Career from './pages/Career';
-// import Contact from './pages/Contact';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Route exact path="/">
         <Home />
       </Route>
-{/* 
+
       <Route path="/Products">
         <Products />
       </Route>
@@ -26,17 +26,13 @@ function App() {
       <Route path="/Resources">
         <Resources />
       </Route>
-
-      <Route path="/Team">
-        <Team />
-      </Route>
-      
+{/* 
       <Route path="/Career">
         <Career />
-      </Route>
+      </Route> */}
       <Route path="/Contact">
         <Contact />
-      </Route> */}
+      </Route> 
     </Switch>
     <Footer/>
     </div>
