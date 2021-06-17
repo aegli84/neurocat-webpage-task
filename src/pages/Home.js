@@ -1,13 +1,12 @@
-import ParticlesBackground from '../components/ParticlesBackground'
-import Navbar from '../components/Navbar'
+//import ParticlesBackground from '../components/ParticlesBackground'
+//import Navbar from '../components/Navbar'
 import About from '../components/AboutNeurocat';
+//import styled from 'styled-components';
 
 const Home = () => {
     return (
         <>
-            {/* <div>Test</div> */}
-            <Navbar/>
-            <ParticlesBackground/>
+            {/* <Navbar/> */}
             <About/>
         </>
     )

@@ -2,9 +2,10 @@ import React from 'react';
 import {Switch, Route} from 'react-router-dom'
 import GlobalStyles from './GlobalStyles'
 import Home from './pages/Home';
+import Footer from './components/Footer'
+//import ParticlesBackground from './components/ParticlesBackground'
 // import Products from './pages/Products';
 // import Resources from './pages/Resources';
-// import Team from './pages/Team';
 // //import Career from './pages/Career';
 // import Contact from './pages/Contact';
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <GlobalStyles/>
+      {/* <ParticlesBackground/> */}
       <Switch>
       <Route exact path="/">
         <Home />
@@ -36,6 +38,7 @@ function App() {
         <Contact />
       </Route> */}
     </Switch>
+    <Footer/>
     </div>
   );
 }

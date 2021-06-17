@@ -19,7 +19,12 @@ const Navbar = ()=> {
                 activeClassName="active" 
                 to = "/Products"
             >Products</NavLink>
-
+            <NavLink
+                exact
+                className = "nav-item"
+                activeClassName="active" 
+                to = "/Resources"
+            >Resources</NavLink>
             <NavLink
                 exact
                 className = "nav-item"
@@ -45,23 +50,25 @@ const Navbar = ()=> {
 
 
 const Nav = styled.nav`
-    min-height: 10vh;
+    min-height: 7vh;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     background: #3c8893;
     overflow: hidden; 
-    padding: 1rem 10rem;
+    padding: 1rem 15rem;
     box-shadow:  0 8px 6px -6px #4d676b;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
-    @media (max-width: 768px){
+    /* @media (max-width: 768px){
         display: none;
-    }
+    } */
     a {
-        font-weight: 700;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
         color: whitesmoke;
         text-decoration: none;
         
@@ -70,10 +77,7 @@ const Nav = styled.nav`
         display: flex;
         list-style: none;
     }
-    #logo {
-        font-weight: 800;
-        font-size: 2.5rem;
-    } 
+    
     li {
         margin-bottom: 0.5rem;
         padding-left: 4rem;

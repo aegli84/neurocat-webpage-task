@@ -1,7 +1,10 @@
 import Particles from "react-tsparticles"
+import styled from 'styled-components';
 
 const ParticlesBackground =() => {
     return(
+        
+<Div>
         <Particles  
         options={{
             background: {
@@ -82,6 +85,19 @@ const ParticlesBackground =() => {
                 detectRetina: true,
             }}
         />
+        </Div>
     )
 };
+
+// const Div = styled.div `
+//     min-height: 10vh;
+//     color: red;
+// `
+
+const Div = styled.div `
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+`
 export default ParticlesBackground;
