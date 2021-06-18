@@ -8,6 +8,7 @@ import Slider from '../components/Slider'
 import Team from '../components/Team'
 import Projects from '../components/Projects'
 import Arrow from '../components/Arrow'
+import Products from '../components/Products'
 import { NavHashLink as Link } from "react-router-hash-link";
 import ScrollIntoView from 'react-scroll-into-view'
 //import {VscArrowDown} from 'react-icons/vsc'
@@ -25,12 +26,11 @@ const About = () => {
                     Neurocat undertakes foundational mathematical research, consulting and devops in the area of AI robustness, comprehensibility, functionality and ethics. Our goal is to make AI technology safe and secure for both industry and society
                 </P>
                 <ScrollIntoView selector = "#products">
-                <Link 
-                    to = "/" 
-                    smooth = {true}
-                    ><Arrow/>
-                </Link>
-                
+                    <Link 
+                        to = "/" 
+                        smooth = {true}
+                        ><Arrow/>
+                    </Link>
                 </ScrollIntoView>
             </Div1>
         </AboutSection>
@@ -51,52 +51,10 @@ const About = () => {
                 </P1>
             </Div3> 
         </Vision> 
-                
+                <Products/>
             
         
             
-
-            <div className = "products" id ="products">
-                <h2>AI Quality Services</h2>
-                <h3>Services for AI Quality – Safety, Security & Privacy</h3>
-                {/* <h4>Research</h4>
-                <p>
-                    Our mathematicians, ML experts, computer and data scientists research for major companies in the areas of AI (Module/Data) robustness, comprehensibility, functionality, privacy and ethical frameworks. Only a deep understanding of the AI algorithms and related data sets allows for the reliable safeguarding against failure over the entire lifecycle of AI applications
-                </p>
-                <h4>Consulting</h4>
-                <p>
-                    Boost the value of your AI products by building up trust. For this you will need to develop robust,  understandable, regulatory, safe and secure AI algorithms – and our consulting team can give you the necessary support to achieve this goal!
-                </p>
-                <h4>Analysis</h4>
-                <p>
-                    We analyze your data and AI models with respect to robustness, comprehensibility, functionality, privacy and ethic. Our experts use unique and state-of-the-art metrics and methods from our AI Analysis Toolkit (aidkit.ai) and in this way detect vulnerabilities early on to safe costs and risks.
-                </p>
-                <h4>Optimization</h4>
-                <p>
-                    The elimination of vulnerabilities in modern AI technologies is one of our core competencies. We can detect and remove crucial weaknesses and errors – regardless of whether they stem from robustness, comprehensibility or general performance issues. Our goal is to ensure AI safety, security and privacy.
-                </p>
-                <h4>Governance</h4>
-                <p>
-                    The approach of neurocat is holistic along the entire AI life cycle. Our task fields range from the optimization of the training, model, datas and specifications of an AI product up to the anomaly or misusage detection. In some of these areas neurocat is a leading worldwide provider of AI quality solutions.
-                </p>
-                <h4>DevOps</h4>
-                <p>
-                    Our experienced AI developers support our customers in development, deployment and operation. The results from our AI Research and AI Analysis can be directly integrated into the customers’ AI products.
-                </p> */}
-                <h2>aidkit</h2>
-                <p>
-                    Is an open source AI analysis, optimization and debugging platform. It will support prototyping, deployment and operation.
-
-                    Save time, money and stress during your AI analysis by using the biggest collection of optimization, vulnerability detection and debugging tools
-                </p>
-
-                <h2>DeepTrust</h2>
-                <p>
-                    Is an AI risk, safety, security and privacy framework for all stakeholders.
-
-                    The acceptance of AI hinges on trust into the system. Thus, our quality seal and its related frameworks serve to create trust in your AI solutions. Calculate and cover your risks, be insured, monitor and control cyber-critical criteria with this unique platform
-                </p>
-            </div>
             <Slider/> 
         <Projects/>
         
@@ -222,4 +180,5 @@ const P1 = styled.p `
     font-size: 1.3rem;
 
 `
+
 export default About;
