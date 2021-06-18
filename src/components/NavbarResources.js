@@ -21,30 +21,30 @@ const Navbar = ()=> {
                 </ScrollIntoView>
         <ul>
             <li>
-            <ScrollIntoView selector= "#aidkit">
+            <ScrollIntoView selector= "#cases">
                 <Link 
-                    to = "#aidkit" 
+                    to = "#cases" 
                     smooth = {true}
-                    >What is aidkit
+                    >Use Cases
                 </Link>
                 </ScrollIntoView>
             </li>
             <li>
-            <ScrollIntoView selector= "#approach">
+            <ScrollIntoView selector= "#publications">
                 <Link 
-                    to = "#approach" 
+                    to = "#publications" 
                     smooth = {true}
-                    >Approach
+                    >Publications
                 </Link>
                 </ScrollIntoView>
             </li>
 
             <li>
-            <ScrollIntoView selector= "#pricing">
+            <ScrollIntoView selector= "#paper">
                 <Link 
-                    to = "#pricing" 
+                    to = "#paper" 
                     smooth = {true}
-                    >Pricing
+                    >Paper Cuts
                 </Link>
                 </ScrollIntoView>
             </li>
@@ -52,21 +52,11 @@ const Navbar = ()=> {
             <li>
             <ScrollIntoView>
                 <Link 
-                    to = "login" 
-                    
-                    >Login
+                    to = "#news" 
+                    smooth  = {true}
+                    >News
                 </Link>
                 </ScrollIntoView>
-            </li>
-            
-            <li>
-            <ScrollIntoView selector = "#faq">
-                <Link 
-                    to = "#faq" 
-                    smooth = {true}
-                >FAQ
-            </Link>
-            </ScrollIntoView>
             </li>
         </ul>
     </Nav>
