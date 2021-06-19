@@ -8,7 +8,7 @@ const Footer = () => {
     const [show, setShow] = useState(false);
     return (
         <>
-        <Div1>
+        <Div1 id = "contact">
             <div>
                 <H3>CONTACT US</H3>
                 <Div2>
@@ -132,8 +132,8 @@ const Button = styled.button`
         padding: 1.3rem 2rem;
         margin-top: 1vh;
         background: rgba( 255, 255, 255, 0.10 );
-        backdrop-filter: blur( 2.5px );
-        -webkit-backdrop-filter: blur( 2.5px );
+        backdrop-filter: blur( 5.5px );
+        -webkit-backdrop-filter: blur( 5.5px );
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
         color: whitesmoke;

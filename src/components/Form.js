@@ -1,39 +1,78 @@
 import styled from 'styled-components'
 // import { useState } from 'react'
-// import {VscChromeClose} from 'react-icons/vsc'
+import {IoMdStar} from 'react-icons/io'
 
 
 const Form = () => {
 
-    //const [show, setShow] = useState(false);
+    
     return(
         <div>
         {/* <VscChromeClose size = '2rem' color = 'whitesmoke' opacity = "0.8" onClick={() => setShow(!show)}/>  */}
-            <Div>
+            <Div >
             
                 
                 <div>
                 <form action="">
+                <label>Name<IoMdStar size = '.6rem' color = 'whitesmoke'/></label>
                     <input 
                         id="name" 
                         type="text" 
-                        placeholder="Name"/>
+                        />
+                <label>Email<IoMdStar size = '.6rem' color = 'whitesmoke'/></label>
                     <input 
                         id="email" 
                         type="text" 
-                        placeholder="Email"/>
+                        />
+                <label>Phone<IoMdStar size = '.6rem' color = 'whitesmoke'/></label>
                     <input 
                         id="phone" 
                         type="text" 
-                        placeholder="Phone"/>
-                <textarea 
+                        />
+                <label>Role<IoMdStar size = '.6rem' color = 'whitesmoke'/></label>
+                    <input 
+                        id="phone" 
+                        type="text" 
+                        />
+                <label>Interest<IoMdStar size = '.6rem' color = 'whitesmoke'/></label>
+                <select name="select" id="test-select">
+                            <option value="">--Please choose an option--</option>
+                            <option value="one">Very interested</option>
+                            <option value="two">Not convinced yet</option>
+                            <option value="three">Where do I sign up</option>
+                        </select>
+                <label>How are you currently testing your models?</label>
+                        <select name="select" id="test-select">
+                            <option value="">--Please choose an option--</option>
+                            <option value="one">AI-Based Sentiment Analytics</option>
+                            <option value="two">CAI Platforms Testing</option>
+                            <option value="three">HAI-Powered Solutions Testing</option>
+                            <option value="four">ML Models Testingt</option>
+                            <option value="five">Analytical Models Testing</option>
+                        </select>
+                    {/* <input 
+                        id="phone" 
+                        type="text" 
+                        /> */}
+                        <label>How often do you test your models?</label>
+                        <select name="select" id="test-select">
+                            <option value="">--Please choose an option--</option>
+                            <option value="one">Once per per month</option>
+                            <option value="two">Every quarter</option>
+                            <option value="three">We never test</option>
+                        </select>
+                    {/* <input 
+                        id="phone" 
+                        type="text" 
+                        /> */}
+                {/* <textarea 
                     className = "textarea"
                     placeholder= "Your message here"
                     type = "text" 
                     name = "message" 
                     cols = "25" 
                     rows = "7">
-                </textarea> 
+                </textarea>  */}
                 </form>
             
             <div>
@@ -55,7 +94,7 @@ const Form = () => {
 }
 
 const Div = styled.div `
-    height: 75vh;
+    height: 120vh;
     width: 38vw;
     display: block;
     align-items: center;
@@ -68,12 +107,11 @@ const Div = styled.div `
     background: rgba( 31, 38, 135, 0.37 ); 
     overflow: hidden;
     float: right;
-    /* margin-bottom: 40vh; */
     margin-top:3vh;
     .button {
-        font-weight: 200;
-        font-size: 1rem;
-        padding: 1rem 2rem;
+        font-weight: 400;
+        font-size: 1.4rem;
+        padding: 1rem 5rem;
         margin-top: -8vh;
         background: rgba( 255, 255, 255, 0.10 );
         backdrop-filter: blur( 2.5px );
@@ -94,10 +132,19 @@ const Div = styled.div `
     }
     form {
         display: block;
-        margin: 1rem 3rem;
-        padding: 2rem;
-
-    textarea {
+        margin: 0 2rem;
+        padding: 3rem;
+        label {
+            color: whitesmoke;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 1rem;
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 200;
+        }
+    /* textarea {
         align-items: center;
         display: block;
         justify-content: center;
@@ -118,10 +165,10 @@ const Div = styled.div `
         &:placeholder-shown {
             padding: 0.5rem 0.5rem;
         } 
-    }
-    input{
+    } */
+    input, select {
         
-        background: rgba( 75, 184, 180, 0.25 );
+        background: #6ea8b2;
         margin-top: 3vh;
         width: 28vw;
         height: 5vh;
@@ -138,9 +185,9 @@ const Div = styled.div `
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         outline:none;
-        ::placeholder {
+        /* ::placeholder {
         color: whitesmoke;
-        }
+        } */
         &:placeholder-shown {
             padding: 0.5rem 0.5rem;
         

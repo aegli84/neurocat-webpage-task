@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 //import ParticlesBackground from './components/ParticlesBackground'
 import Products from './pages/Products';
 import Resources from './pages/Resources';
-// //import Career from './pages/Career';
+import Career from './pages/Career';
 import Contact from './pages/Contact';
 
 function App() {
@@ -26,10 +26,10 @@ function App() {
       <Route path="/Resources">
         <Resources />
       </Route>
-{/* 
+
       <Route path="/Career">
         <Career />
-      </Route> */}
+      </Route>
       <Route path="/Contact">
         <Contact />
       </Route> 

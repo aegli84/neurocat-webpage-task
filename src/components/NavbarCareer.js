@@ -10,45 +10,13 @@ const Navbar = ()=> {
         <a href="http://localhost:3000/">
         <img width="200" height="59" src="https://www.neurocat.ai/wp-content/uploads/2018/11/neurocat_website_logo.png" class="img-fluid" alt="Neurocat" itemprop="logo" ></img>
         </a>
-        <NavLink
-                exact
-                className = "nav-item" 
-                activeClassName="active"
-                to = "/"
-            >Home</NavLink>
-
-            <NavLink
-                exact
-                className = "nav-item"
-                activeClassName="active" 
-                to = "/Products"
-            >Products</NavLink>
-            <NavLink
-                exact
-                className = "nav-item"
-                activeClassName="active" 
-                to = "/Resources"
-            >Resources</NavLink>
-            <ScrollIntoView selector= "#team">
-            <Link 
-            
-                smooth = {true}
-                to = "#Team"
-            >Team</Link>
-            </ScrollIntoView>
             <NavLink
                 exact
                 className = "nav-item"
                 activeClassName="active" 
                 to = "/Career"
-            >Career</NavLink>
-
-        <ScrollIntoView selector =  "#contact">
-            <Link
-                smooth = {true}
-                to = "#Contact"
-            >Contact</Link>
-            </ScrollIntoView>
+            >Jobs</NavLink>
+            
         </Nav>
         
 )
@@ -56,7 +24,7 @@ const Navbar = ()=> {
 
 
 const Nav = styled.nav`
-    min-height: 7vh;
+    min-height: 25vh;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -75,7 +43,7 @@ const Nav = styled.nav`
     a {
         font-family: 'Rubik', sans-serif;
         font-weight: 500;
-        font-size: 1.2rem;
+        font-size: 3.2rem;
         color: whitesmoke;
         text-decoration: none;
         
