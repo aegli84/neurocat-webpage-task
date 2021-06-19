@@ -132,7 +132,7 @@ const Div2 = styled.div `
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 2.5px );
     -webkit-backdrop-filter: blur( 2.5px );
-    border-top-right-radius: 330px;
+    border-top-right-radius: 320px;
     border-bottom-left-radius: 150px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     z-index: -1;
@@ -158,7 +158,7 @@ const Div3 = styled.div `
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    margin: 1rem 6rem 1rem 3rem;
+    margin: 1rem 6rem 1rem 4rem;
     padding: 1rem 3rem 0;
     background: rgba( 255, 255, 255, 0.10 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );

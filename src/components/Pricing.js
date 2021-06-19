@@ -8,9 +8,9 @@ const Pricing = () => {
     const [show, setShow] = useState(false);
     return (
         <>
-            <div id = "pricing">
-            <h2>Pricing</h2>
-                
+            <Div id = "pricing">
+            <H2>Pricing</H2>
+            <H3>Get in touch to discuss pricing options</H3>
             <div>
                     <Button onClick={() => setShow(!show)}
                         className = "button"
@@ -19,13 +19,20 @@ const Pricing = () => {
                         value = "submit">
                         Contact Form
                     </Button>
-                    {show && <Form/>}
+                    <Divf>
+                    {show && <Form />}
+                    </Divf>
             </div>
-            </div>
+            </Div>
         </>
     )
 }
 
+const Div =styled.div `
+    text-align: center;
+    background: #3c8893;
+    height: 65vh;
+`
 
 const Button = styled.button`
         font-weight: 400;
@@ -48,4 +55,32 @@ const Button = styled.button`
         color: #4bb8b4;
     }
 `
+
+const H2 = styled.h2 `
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: whitesmoke; 
+    padding-top: 5rem;
+    margin-bottom: 3rem;
+`
+const H3 = styled.h3 `
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: whitesmoke; 
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+`
+
+const Divf = styled.div`
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #3c8893;
+`
+
 export default Pricing;

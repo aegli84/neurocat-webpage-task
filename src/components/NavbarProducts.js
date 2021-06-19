@@ -81,7 +81,8 @@ const Nav = styled.nav`
     background: #3c8893;
     overflow: hidden; 
     padding: 1rem 15rem;
-    box-shadow:  0 8px 6px -6px #4d676b;
+    border-bottom: 1px solid rgba( 255, 255, 255, 0.20 ) ;
+    /* box-shadow:  0 8px 6px -6px #4d676b; */
     position: fixed;
     top: 0;
     width: 100%;
@@ -95,11 +96,7 @@ const Nav = styled.nav`
         font-size: 1.2rem;
         color: whitesmoke;
         text-decoration: none;
-        cursor: pointer;
-        &:hover {
-            color: black;
-            transition: all 0.5s ease;
-        }
+        
     }
     ul {
         display: flex;
