@@ -11,6 +11,7 @@ import Arrow from '../components/Arrow'
 import Products from '../components/Products'
 import { NavHashLink as Link } from "react-router-hash-link";
 import ScrollIntoView from 'react-scroll-into-view'
+
 //import {VscArrowDown} from 'react-icons/vsc'
 
 const About = () => {
@@ -52,9 +53,6 @@ const About = () => {
             </Div3> 
         </Vision> 
                 <Products/>
-            
-        
-            
             <Slider/> 
         <Projects/>
         

@@ -6,10 +6,11 @@ import Approach from '../components/Approach'
 import add from '../assets/add.png'
 import Pricing from './Pricing'
 import Faq from '../components/Faq'
-
+import ParticlesBackground from '../components/ParticlesBackground'
 const Aidkit = () => {
     return (
         <>
+        <ParticlesBackground/>
             <section id = "aidkit" >
                 <div>
                     <img src={aidkit} alt="people" />
@@ -47,5 +48,7 @@ const Aidkit = () => {
         </>
     )
 }
+
+
 
 export default Aidkit;
