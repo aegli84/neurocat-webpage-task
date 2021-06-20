@@ -1,5 +1,5 @@
 import { FaFacebook, FaLinkedin, FaYoutube } from 'react-icons/fa'
-//import { AiOutlineCopyrightCircle } from 'react-icons/ai'
+//import { AiOutlineMail,  AiOutlinePhone} from 'react-icons/ai'
 import styled from 'styled-components'
 import Form from '../components/Form'
 import { useState } from 'react'
@@ -18,8 +18,17 @@ const Footer = () => {
                 </Div2>
                 
             </div>
+            
             <Line/>
+{/*            
+            <AiOutlineMail color = 'whitesmoke'/>
+            <FaRegAddressCard color = 'whitesmoke'/>
+            <AiOutlinePhone color = 'whitesmoke'/>
+            */}
                 <Div2>
+{/*                 
+                <AiOutlineMail color = 'whitesmoke'/> */}
+                
                 <H4>Address</H4>
                     <P>
                         IGZ Berlin-Adlershof
@@ -85,11 +94,14 @@ const Div2 = styled.div`
 
 
 // const Div3 = styled.div`
-//     display:block;
-//     justify-content: right;
-//     align-items: right;
-//     text-align: right;
-//     padding-left: 13rem;
+
+// display:flex;
+//     justify-content: center;
+//     align-items: center;
+//     text-align: center;
+//     margin: 0 1rem;
+//     /* text-align: center; */
+
 // `
 
 
@@ -100,6 +112,7 @@ const H4 = styled.h4 `
     color: whitesmoke; 
     padding-bottom: .5rem;
     padding-left: 1rem;
+    
 `
 
 

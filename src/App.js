@@ -8,12 +8,13 @@ import Products from './pages/Products';
 import Resources from './pages/Resources';
 import Career from './pages/Career';
 import Contact from './pages/Contact';
+import Labs from './pages/Labs';
+import Login from './pages/Login';
 
 function App() {
   return (
     <div className="App">
       <GlobalStyles/>
-      {/* <ParticlesBackground/> */}
       <Switch>
       <Route exact path="/">
         <Home />
@@ -30,8 +31,17 @@ function App() {
       <Route path="/Career">
         <Career />
       </Route>
+
       <Route path="/Contact">
         <Contact />
+      </Route> 
+
+      <Route path="/Labs">
+        <Labs />
+      </Route> 
+
+      <Route path="/Login">
+        <Login />
       </Route> 
     </Switch>
     <Footer/>

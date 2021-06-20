@@ -1,7 +1,9 @@
 import {NavLink} from 'react-router-dom';
 import styled from 'styled-components';
-// import ScrollIntoView from 'react-scroll-into-view'
+import ScrollIntoView from 'react-scroll-into-view'
 import { NavHashLink as Link } from "react-router-hash-link";
+//import {Link } from "react-router-dom";
+
 
 const Navbar = ()=> {
     return(
@@ -10,13 +12,31 @@ const Navbar = ()=> {
         <a href="http://localhost:3000/">
         <img width="200" height="59" src="https://www.neurocat.ai/wp-content/uploads/2018/11/neurocat_website_logo.png" class="img-fluid" alt="Neurocat" itemprop="logo" ></img>
         </a>
-            <Link
+        <NavLink
+                exact
+                className = "nav-item" 
+                activeClassName="active"
+                to = "/Login"
+            >Login</NavLink>
+
+            <NavLink
                 exact
                 className = "nav-item"
                 activeClassName="active" 
-                to = "/Career"
-            >Jobs</Link>
+                to = "/Sign"
+            >Sign Up</NavLink>
+            <Link 
+                    to = "/faq" 
+                    smooth = {true}
+                >FAQ
+            </Link>
+            <ScrollIntoView selector = "#contact">
+            <Link 
             
+                smooth = {true}
+                to = "#contact"
+            >Contact</Link>
+            </ScrollIntoView>
         </Nav>
         
 )
@@ -24,7 +44,7 @@ const Navbar = ()=> {
 
 
 const Nav = styled.nav`
-    min-height: 25vh;
+    min-height: 7vh;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -43,7 +63,7 @@ const Nav = styled.nav`
     a {
         font-family: 'Rubik', sans-serif;
         font-weight: 500;
-        font-size: 3.2rem;
+        font-size: 1.2rem;
         color: whitesmoke;
         text-decoration: none;
         

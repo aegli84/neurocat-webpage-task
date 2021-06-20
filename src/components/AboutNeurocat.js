@@ -69,7 +69,7 @@ const AboutSection = styled.div `
     justify-content: center;
 `
 const Div1 = styled.div`
-    height: 90vh;
+    height: 93vh;
     width: 35vw;
     display: flex;
     flex-direction: column; 
@@ -95,6 +95,7 @@ const H1 = styled.h1 `
 `
 const P = styled.p `
     margin-top: 1.5rem;
+    margin-bottom: 1rem;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     font-size: 1.7rem;  
@@ -119,7 +120,7 @@ const Mission = styled.div `
     left: 0;
 `
 const Div2 = styled.div `
-    height: 65vh;
+    height: 68vh;
     width: 30vw;
     display: flex;
     flex-direction: column; 
@@ -132,15 +133,15 @@ const Div2 = styled.div `
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 2.5px );
     -webkit-backdrop-filter: blur( 2.5px );
-    border-top-right-radius: 320px;
-    border-bottom-left-radius: 150px;
+    border-top-right-radius: 260px;
+    border-bottom-left-radius: 130px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     z-index: -1;
     position: relative;
 `
 
 const Vision = styled.div `
-    margin-top: -34rem;
+    margin-top: -36rem;
     margin-left: 60vw;
     display: flex;
     flex-direction: column; 
@@ -164,8 +165,8 @@ const Div3 = styled.div `
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 2.5px );
     -webkit-backdrop-filter: blur( 2.5px );
-    border-bottom-right-radius: 320px;
-    border-top-left-radius: 120px;
+    border-bottom-right-radius: 250px;
+    border-top-left-radius: 110px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     z-index: -1;
     position: relative;

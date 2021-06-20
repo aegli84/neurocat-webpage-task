@@ -41,8 +41,7 @@ const Aidkit = () => {
                 </Div>
             <section id = "approach">
                 <Approach/>
-            </section>
-            
+            </section> 
             <section id="pricing">
                 <Pricing/>
             </section>

@@ -5,10 +5,7 @@ import ScrollIntoView from 'react-scroll-into-view'
 
 const Navbar = ()=> {
 
-    //let Link = Scroll.Link;
-
     return(
-        
         <Nav>
         <ScrollIntoView>
                 <Link 
@@ -21,49 +18,30 @@ const Navbar = ()=> {
                 </ScrollIntoView>
         <ul>
             <li>
-            <ScrollIntoView selector= "#aidkit">
+            <ScrollIntoView selector= "#offerings">
                 <Link 
-                    to = "#aidkit" 
+                    to = "#offerings" 
                     smooth = {true}
-                    >What is aidkit
+                    >Offerings
                 </Link>
                 </ScrollIntoView>
             </li>
             <li>
-            <ScrollIntoView selector= "#approach">
+            <ScrollIntoView selector= "#service">
                 <Link 
-                    to = "#approach" 
+                    to = "#service" 
                     smooth = {true}
-                    >Approach
-                </Link>
-                </ScrollIntoView>
-            </li>
-
-            <li>
-            <ScrollIntoView selector= "#pricing">
-                <Link 
-                    to = "#pricing" 
-                    smooth = {true}
-                    >Pricing
+                    >Service Projects
                 </Link>
                 </ScrollIntoView>
             </li>
 
             <li>
-            <ScrollIntoView selector = "#faq">
+            <ScrollIntoView selector= "#projects">
                 <Link 
-                    to = "#faq" 
+                    to = "#projects" 
                     smooth = {true}
-                >FAQ
-            </Link>
-            </ScrollIntoView>
-            </li>
-            <li>
-            <ScrollIntoView>
-                <Link 
-                    to = "login" 
-                    
-                    >Login
+                    >Non-profit Projects
                 </Link>
                 </ScrollIntoView>
             </li>

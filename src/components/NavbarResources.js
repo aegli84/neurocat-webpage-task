@@ -30,9 +30,9 @@ const Navbar = ()=> {
                 </ScrollIntoView>
             </li>
             <li>
-            <ScrollIntoView selector= "#publications">
+            <ScrollIntoView selector= "#public">
                 <Link 
-                    to = "#publications" 
+                    to = "#public" 
                     smooth = {true}
                     >Publications
                 </Link>

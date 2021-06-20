@@ -1,6 +1,7 @@
 import Navbar from '../components/NavbarResources'
 import ParticlesBackground from '../components/ParticlesBackground'
-import Aidkit from '../components/Aidkit'
+import Work from '../components/Work'
+
 
 const Resources = () => {
     return (
@@ -9,7 +10,7 @@ const Resources = () => {
             <div>
             
                 <Navbar/>
-                {/* <Aidkit/> */}
+                <Work/>
             </div>
         </>
     )

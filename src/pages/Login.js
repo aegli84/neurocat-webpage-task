@@ -1,19 +1,19 @@
-import Navbar from '../components/NavbarCareer'
+import Navbar from '../components/NavbarLogin'
 //import About from '../components/AboutNeurocat';
 //import styled from 'styled-components';
 import ParticlesBackground from '../components/ParticlesBackground'
-import Jobs from '../components/Jobs'
+import Sections from '../components/Log';
 
-const Career = () => {
+const Login = () => {
     return (
         <>
         <ParticlesBackground/>
         <div>
             <Navbar/> 
-            <Jobs/>
+            <Sections/>
             </div>
         </>
     )
 }
 
-export default Career;
+export default Login;
