@@ -1,6 +1,5 @@
 import aidkit from '../assets/aidkit.png'
 import test from '../assets/test.png'
-import why from '../assets/why.png'
 import Video from '../components/Video'
 import Approach from '../components/Approach'
 import add from '../assets/add.png'

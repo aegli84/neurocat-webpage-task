@@ -1,4 +1,4 @@
-import {NavLink} from 'react-router-dom';
+//import {NavLink} from 'react-router-dom';
 import styled from 'styled-components';
 // import ScrollIntoView from 'react-scroll-into-view'
 import { NavHashLink as Link } from "react-router-hash-link";

@@ -1,8 +1,4 @@
 import styled from 'styled-components'
-// import Cases from '../components/Cases'
-// import Publications from '../components/Publications'
-// import PaperCuts from '../components/PaperCuts'
-// import News from '../components/News'
 import NeuroLabs from './NeuroLabs'
 import NeuroServices from './NeuroServices'
 import NeuroProjects from './NeuroProjects'
