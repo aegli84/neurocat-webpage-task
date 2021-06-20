@@ -12,7 +12,7 @@ const Lab = () => {
             </div> 
             <div id="public">
                 <NeuroServices/>
-               
+            
             </div>
             <div id="paper">
                 <NeuroProjects/>
