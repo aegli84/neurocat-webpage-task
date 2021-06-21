@@ -3,8 +3,8 @@ import styled from 'styled-components'
 const PaperCuts = () => {
     return (
         <div>
-             <Div id = "cases">
-            <H2>Paper Cuts</H2>
+            <Div id = "cases">
+                <H2>Paper Cuts</H2>
             </Div>
             
         </div>

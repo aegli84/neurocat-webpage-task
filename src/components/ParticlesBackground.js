@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const ParticlesBackground =() => {
     return(
         
-<Div>
+    <Div>
         <Particles  
         options={{
             background: {
@@ -85,19 +85,15 @@ const ParticlesBackground =() => {
                 detectRetina: true,
             }}
         />
-        </Div>
+    </Div>
     )
 };
 
-// const Div = styled.div `
-//     min-height: 10vh;
-//     color: red;
-// `
 
 const Div = styled.div `
     position: absolute;
     height: 100vh;
-    width: 100vw;
+    width: 95vw;
     z-index: -1;
 `
 export default ParticlesBackground;

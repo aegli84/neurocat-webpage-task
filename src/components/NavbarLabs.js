@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-//import {useLocation} from 'react-router-dom'
 import { NavHashLink as Link } from "react-router-hash-link";
 import ScrollIntoView from 'react-scroll-into-view'
 
@@ -7,15 +6,11 @@ const Navbar = ()=> {
 
     return(
         <Nav>
-        <ScrollIntoView>
-                <Link 
-                
-                    to = "/" 
-                    >
-                    
-                    <img width="222" height="69" src="https://www.neurocat.ai/wp-content/uploads/2018/11/neurocat_website_logo.png" class="img-fluid" alt="Neurocat" itemprop="logo"  ></img>
+            <ScrollIntoView>
+                <Link to = "/">
+                    <img width="200" height="59" src="https://www.neurocat.ai/wp-content/uploads/2018/11/neurocat_website_logo.png" class="img-fluid" alt="Neurocat" itemprop="logo"  ></img>
                 </Link>
-                </ScrollIntoView>
+            </ScrollIntoView>
         <ul>
             <li>
             <ScrollIntoView selector= "#offerings">
@@ -59,14 +54,10 @@ const Nav = styled.nav`
     overflow: hidden; 
     padding: 1rem 15rem;
     border-bottom: 1px solid rgba( 255, 255, 255, 0.20 ) ;
-    /* box-shadow:  0 8px 6px -6px #4d676b; */
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
-    /* @media (max-width: 768px){
-        display: none;
-    } */
     a {
         font-family: 'Rubik', sans-serif;
         font-weight: 500;

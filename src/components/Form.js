@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-// import { useState } from 'react'
 import {IoMdStar} from 'react-icons/io'
 
 
@@ -50,10 +49,6 @@ const Form = () => {
                             <option value="four">ML Models Testingt</option>
                             <option value="five">Analytical Models Testing</option>
                         </select>
-                    {/* <input 
-                        id="phone" 
-                        type="text" 
-                        /> */}
                         <label>How often do you test your models?</label>
                         <select name="select" id="test-select">
                             <option value="">--Please choose an option--</option>
@@ -61,22 +56,8 @@ const Form = () => {
                             <option value="two">Every quarter</option>
                             <option value="three">We never test</option>
                         </select>
-                    {/* <input 
-                        id="phone" 
-                        type="text" 
-                        /> */}
-                {/* <textarea 
-                    className = "textarea"
-                    placeholder= "Your message here"
-                    type = "text" 
-                    name = "message" 
-                    cols = "25" 
-                    rows = "7">
-                </textarea>  */}
                 </form>
-            
             <div>
-                
                     <button 
                         className = "button"
                         id = "submit" 
@@ -84,11 +65,9 @@ const Form = () => {
                         value = "submit">
                         Send
                     </button>
-            
             </div>
             </div>
             </Div>
-            
         </div>
     )
 }
@@ -128,7 +107,7 @@ const Div = styled.div `
     &:hover {
         background-color: #23282db9;
         color: #4bb8b4;
-    }
+        }
     }
     form {
         display: block;
@@ -144,30 +123,8 @@ const Div = styled.div `
             font-size: 1.3rem;
             font-weight: 200;
         }
-    /* textarea {
-        align-items: center;
-        display: block;
-        justify-content: center;
-        background: rgba( 75, 184, 180, 0.25 );
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 1rem;
-        color: whitesmoke;
-        cursor: pointer;
-        margin-top: 4vh; 
-        width: 28vw;
-        border: 1px solid lightgreen;
-        border-radius: 2px;
-        outline:none; 
-        ::placeholder {
-        color: whitesmoke;
-    }
-        &:placeholder-shown {
-            padding: 0.5rem 0.5rem;
-        } 
-    } */
+    
     input, select {
-        
         background: #6ea8b2;
         margin-top: 3vh;
         width: 28vw;
@@ -185,21 +142,12 @@ const Div = styled.div `
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         outline:none;
-        /* ::placeholder {
-        color: whitesmoke;
-        } */
+        
         &:placeholder-shown {
             padding: 0.5rem 0.5rem;
-        
         } 
-        
     }
-    
-    }
+}
 
-    
 `
-
-
-
 export default Form;

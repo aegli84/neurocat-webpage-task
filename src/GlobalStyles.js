@@ -9,7 +9,12 @@ const GlobalStyles = createGlobalStyle`
     }
     
     html {
+        ${'' /* height: 100vh; */}
         overflow: hidden;
+        scroll-behavior: smooth;
+        @media (max-width: 1200px){
+            font-size: 75%;
+        }
     }
     
     body {
@@ -17,6 +22,7 @@ const GlobalStyles = createGlobalStyle`
         height: 100vh;
         width: 100%;
         overflow-x: hidden;
+        background-color: #3c8893;
     }
 `
 

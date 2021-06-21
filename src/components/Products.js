@@ -2,11 +2,21 @@ import styled from 'styled-components';
 import miau from '../assets/miau.png'
 import aid from '../assets/aid.png'
 import tru from '../assets/tru.png'
+import {ScrollSections} from './ScrollSections'
+import {fade} from '../animations'
+import {motion} from 'framer-motion'
 
 const Products = () => {
+    const [element, controls] = ScrollSections();
     return (
 <>
-        <Div4 className = "products" id ="products">
+        <Div4 
+                className = "products" 
+                id ="products"
+                variants = {fade} 
+                animate={controls} 
+                initial = 'hidden' 
+                ref={element}>
             <Card>
             <img src={miau} alt="html"/>
                 <H2>AI Quality Services</H2>
@@ -35,7 +45,7 @@ const Products = () => {
     )}
 
 
-const Div4 = styled.div `
+const Div4 = styled(motion.div) `
     min-height: 45vh;
     padding: 4rem;
     margin-top: 2rem;

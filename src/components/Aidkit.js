@@ -5,13 +5,22 @@ import Approach from '../components/Approach'
 import add from '../assets/add.png'
 import Pricing from './Pricing'
 import Faq from '../components/Faq'
-
 import styled from 'styled-components'
+import {motion} from 'framer-motion'
+import {ScrollSections} from './ScrollSections'
+import {fade, pageAnimation} from '../animations'
 
 const Aidkit = () => {
+
+    const [element, controls] = ScrollSections();
     return (
         <>
-            <Div id = "aidkit" >
+            <Div 
+                id = "aidkit" 
+                variants = {pageAnimation} 
+                initial = "hidden" 
+                animate = "show"
+                >
                 <Div2>
                     <img src={aidkit} alt="people" />
                     <div>
@@ -22,17 +31,22 @@ const Aidkit = () => {
                         </div>
                 </Div2>
             </Div>
-                    <Div3>
+                <Div3 
+                    variants = {fade} 
+                    animate={controls} 
+                    initial = 'hidden' 
+                    ref={element}
+                    >
                         <H2>Aidkit explained</H2>
                         <Video className="video" embedId="GdVPn0mQp2k"/>
-                    </Div3>
-                <Div >
+                </Div3>
+                <Div>
                     <Div4 className="test">
                         <img src={test} alt="people" />
                             <H2>Tesbed & Monitor</H2>
                     </Div4>
                 </Div>
-                <Div >
+                <Div>
                     <Div4 className="add">
                         <H2>AddOn Protect & Explain</H2>
                             <img src={add} alt="people" />
@@ -51,14 +65,12 @@ const Aidkit = () => {
     )
 }
 
-const Div = styled.div `
+const Div = styled(motion.div) `
     display: flex;
     align-items: left;
     justify-content: left;
     height: 80vh;
     width: 115vw;
-    
-    
 `
 
 const Div2 = styled.div `
@@ -76,14 +88,11 @@ const Div2 = styled.div `
     border-bottom-right-radius: 350px;
     border-bottom-left-radius: 150px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    
-
     img {
         float: left;
         height: 30vh;
         width: 30vw;
         padding-left: 6rem;
-        
     }
 `
 
@@ -102,7 +111,7 @@ const P = styled.p `
     color: whitesmoke;
 `
 
-const Div3 = styled.div`
+const Div3 = styled(motion.div)`
     display: block;
     justify-content: center;
     align-items: center;
@@ -118,13 +127,10 @@ const Div3 = styled.div`
         height: 30vh;
         width: 30vw;
         padding-left: 10rem;
-        
     }
-    
 `
 
 const H2 = styled.h2 `
-    /* padding: 0 0 2rem 10rem; */
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 3rem;
@@ -140,8 +146,6 @@ const Div4 = styled.div `
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    /* margin-bottom: 1rem;
-    padding: 1rem; */
     background: rgba( 255, 255, 255, 0.10 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 2.5px );
@@ -155,8 +159,6 @@ const Div4 = styled.div `
         height: 40vh;
         width: 35vw;
         padding-left: 5rem;
-        
     }
-    
 `
 export default Aidkit;

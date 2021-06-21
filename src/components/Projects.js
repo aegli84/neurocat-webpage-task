@@ -3,11 +3,19 @@ import customers from '../assets/customers.png'
 import styled from 'styled-components'
 import { BsArrowLeftRight } from 'react-icons/bs'
 import {Link } from "react-router-dom";
+import {ScrollSections} from './ScrollSections'
+import {fade} from '../animations'
+import {motion} from 'framer-motion'
 
 const Projects = () => {
+    const [element, controls] = ScrollSections();
     return(
         <>
-        <Div>
+        <Div
+            variants = {fade} 
+                animate={controls} 
+                initial = 'hidden' 
+                ref={element}>
             <Div1>
             <div>
                 <Link to = "/Labs">
@@ -52,7 +60,7 @@ const Projects = () => {
 }
 
 
-const Div = styled.div `
+const Div = styled(motion.div) `
     display: block;
     justify-content: center;
     text-align: center;

@@ -1,40 +1,37 @@
 import styled from 'styled-components'
 
-
-
 const Trust = () => {
     return (
         <div>
         <H2>Why DeepTrust?</H2>
             <Div id = "cases">
             <Card>
-            <div>
-                <H4>
-                    Seal of Approval
-                </H4>
-            </div>
+                <div>
+                    <H4>
+                        Seal of Approval
+                    </H4>
+                </div>
             </Card>
             <Card>
-            <div>
-                <H4>
-                    Best Protection
-                </H4>
-            </div>
+                <div>
+                    <H4>
+                        Best Protection
+                    </H4>
+                </div>
             </Card>
             <Card>
-            <div>
-                <H4>
-                    Competitive Advantage
-                </H4>
-            </div>
+                <div>
+                    <H4>
+                        Competitive Advantage
+                    </H4>
+                </div>
             </Card>
-            
             <Card>
-            <div>
-                <H4>
-                    Independent Team
-                </H4>
-            </div>
+                <div>
+                    <H4>
+                        Independent Team
+                    </H4>
+                </div>
             </Card>
             </Div>
             <Div2>

@@ -1,22 +1,14 @@
 import styled from 'styled-components';
-//import {useLocation} from 'react-router-dom'
 import { NavHashLink as Link } from "react-router-hash-link";
 import ScrollIntoView from 'react-scroll-into-view'
 
 const Navbar = ()=> {
 
-    //let Link = Scroll.Link;
-
     return(
-        
         <Nav>
         <ScrollIntoView>
-                <Link 
-                
-                    to = "/" 
-                    >
-                    
-                    <img width="222" height="69" src="https://www.neurocat.ai/wp-content/uploads/2018/11/neurocat_website_logo.png" class="img-fluid" alt="Neurocat" itemprop="logo"  ></img>
+                <Link to = "/">
+                    <img width="200" height="59" src="https://www.neurocat.ai/wp-content/uploads/2018/11/neurocat_website_logo.png" class="img-fluid" alt="Neurocat" itemprop="logo" ></img>
                 </Link>
                 </ScrollIntoView>
         <ul>

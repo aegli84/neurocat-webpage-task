@@ -6,10 +6,11 @@ import add from '../assets/add.png'
 import styled from 'styled-components'
 
 const Approach = () => {
+
     return (
         <>
             <Div id = "approach">
-            <Div3>
+            <Div3 >
                 <H2>Features of aidkit: </H2>
                 <H3>Functionality</H3>
                     <img src={functionality} alt="" />
@@ -27,7 +28,6 @@ const Approach = () => {
                     <img src={customers} alt="" />
                 </Div4>
             </div>
-            
         </>
     )
 }
@@ -41,8 +41,6 @@ const Div = styled.div `
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content: center;
-    
-    
 `
 
 const Div3 = styled.div`
@@ -53,11 +51,9 @@ const Div3 = styled.div`
     -webkit-backdrop-filter: blur( 2.5px );
     border-radius:10px;
     text-align: center;
-    /* margin: 1rem; */
     background: rgba( 31, 38, 135, 0.37 ); 
     overflow: hidden;
     img {
-        
         height: 50vh;
         width: 80vw;
         margin-top: 2rem; 
@@ -85,17 +81,12 @@ const Div4 = styled.div `
     display: block;
     align-items: center;
     justify-content: center;
-
     text-align: center;
     color: whitesmoke;
-    /* margin-bottom: 1rem;
-    padding: 1rem; */
     background: rgba( 255, 255, 255, 0.10 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 2.5px );
     -webkit-backdrop-filter: blur( 2.5px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-    
 `
 export default Approach;

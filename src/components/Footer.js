@@ -1,5 +1,4 @@
 import { FaFacebook, FaLinkedin, FaYoutube } from 'react-icons/fa'
-//import { AiOutlineMail,  AiOutlinePhone} from 'react-icons/ai'
 import styled from 'styled-components'
 import Form from '../components/Form'
 import { useState } from 'react'
@@ -16,7 +15,6 @@ const Footer = () => {
                     <a href="https://www.google.com/search?q=facebook&oq=facebook&aqs=chrome..69i57j35i39j0i67l7.1345j0j15&sourceid=chrome&ie=UTF-8"><FaLinkedin/></a>
                     <a href="https://www.google.com/search?q=facebook&oq=facebook&aqs=chrome..69i57j35i39j0i67l7.1345j0j15&sourceid=chrome&ie=UTF-8"><FaYoutube/></a>
                 </Div2>
-                
             </div>
             
             <Line/>
@@ -92,19 +90,6 @@ const Div2 = styled.div`
     }
 `
 
-
-// const Div3 = styled.div`
-
-// display:flex;
-//     justify-content: center;
-//     align-items: center;
-//     text-align: center;
-//     margin: 0 1rem;
-//     /* text-align: center; */
-
-// `
-
-
 const H4 = styled.h4 `
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -112,10 +97,7 @@ const H4 = styled.h4 `
     color: whitesmoke; 
     padding-bottom: .5rem;
     padding-left: 1rem;
-    
 `
-
-
 const P = styled.p `
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
@@ -135,8 +117,6 @@ const Line = styled.div`
     border-left: .1rem solid whitesmoke;
     height: 13rem;
     position: relative;
-    /* padding-right: 1rem; */
-    /* left: -1%; */
 `
 
 const Button = styled.button`

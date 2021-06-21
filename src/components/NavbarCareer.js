@@ -1,6 +1,4 @@
-//import {NavLink} from 'react-router-dom';
 import styled from 'styled-components';
-// import ScrollIntoView from 'react-scroll-into-view'
 import { NavHashLink as Link } from "react-router-hash-link";
 
 const Navbar = ()=> {
@@ -18,13 +16,11 @@ const Navbar = ()=> {
             >Jobs</Link>
             
         </Nav>
-        
-)
+    )
 }
 
-
 const Nav = styled.nav`
-    min-height: 25vh;
+    min-height: 16vh;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -32,14 +28,10 @@ const Nav = styled.nav`
     overflow: hidden; 
     padding: 1rem 15rem;
     border-bottom: 1px solid rgba( 255, 255, 255, 0.20 ) ;
-    /* box-shadow:  0 8px 6px -6px #4d676b; */
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
-    /* @media (max-width: 768px){
-        display: none;
-    } */
     a {
         font-family: 'Rubik', sans-serif;
         font-weight: 500;
