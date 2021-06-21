@@ -33,30 +33,31 @@ const Card = styled.div `
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    width: 100vw;
-    height: 80vh;
+    width: 95vw;
+    height: 85vh;
     box-shadow: 1px 3px 32px -7px rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 2.5px );
     -webkit-backdrop-filter: blur( 2.5px );
     border-radius:10px;
-    text-align: center;
+    text-align: left;
     margin: 7rem;
     overflow: hidden;
+    
     img {
-        height: 80vh;
+        height: 85vh;
         width: 47vw;
         
     }
 `
 const H2 = styled.h3 `
-    /* padding: 0 0 2rem 10rem; */
+    padding: 0 1rem 2rem 1rem; 
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 3rem;
     color: whitesmoke; 
     padding-top: 4rem;
-    margin-right: 8rem;
-    margin-bottom: 1rem;
+    margin-left: 3rem;
+    
 `
 const P = styled.p `
     /* margin: 1rem 5rem 1rem 14rem; */
@@ -65,7 +66,8 @@ const P = styled.p `
     font-weight: 400;
     font-size: 1.4rem;  
     color: whitesmoke;
-    padding: 1.2rem;
-    margin-right: 8rem;
+    padding: 1rem;
+    margin-right: 4rem;
+    margin-left: 3rem;
 `
 export default Team;

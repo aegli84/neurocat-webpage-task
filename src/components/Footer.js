@@ -69,7 +69,7 @@ const Div1 = styled.div`
     justify-content: space-around;
     text-align: center;
     background: #3c8893;
-    margin-top: 25vh;
+    margin-top: 2vh;
     padding: 0rem 1rem;
     border-top: 1px solid rgba( 255, 255, 255, 0.20 );
     border-bottom: 1px solid rgba( 255, 255, 255, 0.20 );
