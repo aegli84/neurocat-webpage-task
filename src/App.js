@@ -3,7 +3,6 @@ import {Switch, Route} from 'react-router-dom'
 import GlobalStyles from './GlobalStyles'
 import Home from './pages/Home';
 import Footer from './components/Footer'
-//import ParticlesBackground from './components/ParticlesBackground'
 import Products from './pages/Products';
 import Resources from './pages/Resources';
 import Career from './pages/Career';

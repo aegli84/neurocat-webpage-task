@@ -1,6 +1,6 @@
 import Navbar from '../components/NavbarCareer'
 //import About from '../components/AboutNeurocat';
-//import styled from 'styled-components';
+
 import ParticlesBackground from '../components/ParticlesBackground'
 import Jobs from '../components/Jobs'
 

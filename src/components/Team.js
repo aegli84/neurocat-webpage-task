@@ -1,12 +1,10 @@
 import team from '../assets/team.jpg'
 import styled from 'styled-components'
-import { motion } from 'framer-motion'
-import { pageAnimation } from '../animations'
-import { titleAnimation, fade, photoAnimation } from '../animations'
+
 const Team = () => {
     return (
         <>
-        <Div variants = {photoAnimation}>
+        <Div >
         <Card className = "team" id = "team">
         <img src={team} alt="people" />
         <div>
