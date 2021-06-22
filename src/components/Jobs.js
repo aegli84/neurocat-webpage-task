@@ -62,7 +62,7 @@ const H3 = styled.h3 `
     margin: 4rem 1rem 2rem 0rem;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: whitesmoke; 
     text-decoration: underline;
     cursor: pointer;
