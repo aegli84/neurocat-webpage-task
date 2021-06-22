@@ -81,8 +81,8 @@ const Div1 = styled.div`
     padding: 2.5rem 3rem 0;
     background: rgba( 255, 255, 255, 0.10 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 2.5px );
-    -webkit-backdrop-filter: blur( 2.5px );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
     border-bottom-right-radius: 350px;
     border-bottom-left-radius: 150px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -138,8 +138,8 @@ const Div2 = styled.div `
     padding: 1rem 3rem 0;
     background: rgba( 255, 255, 255, 0.10 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 2.5px );
-    -webkit-backdrop-filter: blur( 2.5px );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
     border-top-right-radius: 260px;
     border-bottom-left-radius: 130px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -170,8 +170,8 @@ const Div3 = styled.div `
     padding: 1rem 3rem 0;
     background: rgba( 255, 255, 255, 0.10 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 2.5px );
-    -webkit-backdrop-filter: blur( 2.5px );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
     border-bottom-right-radius: 250px;
     border-top-left-radius: 110px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
