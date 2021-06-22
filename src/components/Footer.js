@@ -11,9 +11,9 @@ const Footer = () => {
             <div>
                 <H3>CONTACT US</H3>
                 <Div2>
-                    <a href="https://www.google.com/search?q=facebook&oq=facebook&aqs=chrome..69i57j35i39j0i67l7.1345j0j15&sourceid=chrome&ie=UTF-8"><FaFacebook/></a>
-                    <a href="https://www.google.com/search?q=facebook&oq=facebook&aqs=chrome..69i57j35i39j0i67l7.1345j0j15&sourceid=chrome&ie=UTF-8"><FaLinkedin/></a>
-                    <a href="https://www.google.com/search?q=facebook&oq=facebook&aqs=chrome..69i57j35i39j0i67l7.1345j0j15&sourceid=chrome&ie=UTF-8"><FaYoutube/></a>
+                    <a target = "_blank" rel="noreferrer" href="https://www.facebook.com/neurocatai/"><FaFacebook/></a>
+                    <a target = "_blank" rel="noreferrer" href="https://www.linkedin.com/company/neurocatai/"><FaLinkedin/></a>
+                    <a target = "_blank" rel="noreferrer"  href="https://www.youtube.com/"><FaYoutube/></a>
                 </Div2>
             </div>
             

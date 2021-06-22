@@ -62,7 +62,7 @@ const Nav = styled.nav`
     justify-content: space-between;
     background: #3c8893;
     overflow: hidden; 
-    padding: 1rem 15rem;
+    padding: 1rem 7rem;
     border-bottom: 1px solid rgba( 255, 255, 255, 0.20 ) ;
     position: fixed;
     top: 0;
